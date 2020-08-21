@@ -1,1 +1,1 @@
-# shunting_yard_algorithm
+# A Calculator implemented with The Shunting Yard Algorithm
