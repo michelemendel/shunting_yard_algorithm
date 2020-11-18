@@ -50,7 +50,7 @@ const flushStackToQueue = (stack, queue) => {
   }
 };
 
-// This is the heart of the shuntyard algorithm
+// This is the heart of the shunting yard algorithm
 const shuntyard = (x, stack, queue) => {
   const prec = stack.peek() ? stack.peek()[2] : 0;
 
